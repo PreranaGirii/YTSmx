@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px; 
+    width: 60px; 
+    margin-top: auto;
+    margin-left: 80px; 
+}
+
+.header-slogan{
+    font-size: medium;
+    color: #c1bdbd ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    margin-right: 250px;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333; 
+    border: 1px solid #555; 
+    border-radius: 20px;
+    padding: 5px 8px; 
+    width: 250px;
+    
+}
+
+.search-bar .search-icon {
+    font-size: small;
+    margin-right: 10px; 
+    color: #aaa; 
+}
+   
+
+.search-bar input {
+    background: transparent; 
+    border: none;
+    outline: none; 
+    color: #fff; 
+    font-size: medium; 
+    padding: 5px; 
+}
+
+#placeholder {
+    color: #aaa;
+}
+
+.nav-links {
+    font-size: small;
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    font-size: small;
+}
+
+#four{
+    color: green !important;
+}
+
+#login{
+    color: white !important;
+    font: bold;
+}
+
+#or{
+    color: rgb(173, 166, 166);
+    padding: -13px;
+}
+
+#register{
+    color: white !important;
+    font: bold;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(173, 166, 166);
+    font-size: small;
+    margin-right: 10px;
+}
+
+.nav-links li a:hover {
+    color: #547ca1;
+}
+
+
+
+
+.home-content {
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(64, 58, 58) ;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.home-content p {
+    margin-bottom: 10px;
+    color: #d5d1d1;
+    font-size: small;
+}
+
+.home-content .important {
+    font-size: small;
+    color: rgb(86, 174, 247);
+}
+
+.home-content .social-links a {
+    color:  rgb(86, 174, 247);
+    text-decoration: none;
+    font-size: small;
+}
+
+.fab.fa-telegram{
+    color: blue;
+}
+
+.fab.fa-twitter{
+    color: blue;
+}
+
+.popular{
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: medium !important;
+    font:bold !important;
+}
+
+
+.movie-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+
+
+
+.home-content .movie {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.movie img {
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.movie img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(133, 213, 150, 0.5); }
+
+
+
+.home-content .movie p {
+    margin-top: 10px;
+    font-size:medium;
+}
